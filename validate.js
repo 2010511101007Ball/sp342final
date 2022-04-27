@@ -9,8 +9,8 @@ function checkNID() {
 
 function checkTicketNo() {
   let num = (document.getElementById("ticknum").value).trim();
-  if (isNaN(num)) {
-    return false;
+  if (isNaN(num )) {
+    return alert("max 5 ticket");
   } else {
 	return true;
   }
